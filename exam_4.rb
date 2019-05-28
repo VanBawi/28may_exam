@@ -1,4 +1,4 @@
-# You will write a method upcase_keys_selector that takes in a hash
+# You will write a method upcase_keys_selector that takes in a Hash
 # The method returns a new hash containing key-value pairs of the original hash that had uppercase keys. 
 # You can assume that the keys will always be strings.
 

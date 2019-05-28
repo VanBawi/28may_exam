@@ -1,4 +1,4 @@
-# You will write a method only_name that takes in an array of hashes
+# You will write a method, only_name that takes in an Array of Hashes
 # The method returns a new array containing the names of each hash.
 # You have to use .map to solve this
 
