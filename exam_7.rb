@@ -3,6 +3,14 @@
 
 def combinations(arr)
     # Write your code here
+    # don't know how to get string and integer to be true in combinations cos string and num functions differently
+    # arr.combination(3).to_s
+    # arr.combination(2).to_h
+
+    combination = []
+    arr.each do |n|
+        
+    end
 end
 
 print combinations(["a", "b", "c"]) == [ [ "a", "b" ], [ "a", "c" ], [ "b", "c" ] ]

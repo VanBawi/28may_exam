@@ -3,8 +3,8 @@
 
 def find_factorial(num)
     # Write your code here
+     num == 0? 1 : (1..num).inject(1) { |total, i| total*= i; total }
 end
-
 puts find_factorial(3) == 6 # because 1 * 2 * 3 = 6
 puts
 

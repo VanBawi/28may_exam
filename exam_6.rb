@@ -4,6 +4,11 @@
 
 def only_unique_elements(arr)
     # Write your code here
+    array = []
+    arr.each do |e|
+         array << e unless array.include?(e)
+    end  
+    array
 end
 
 print only_unique_elements(['a', 'b', 'a', 'a', 'b', 'c']) == ["a", "b", "c"]

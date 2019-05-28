@@ -4,6 +4,9 @@
 
 def only_name(arr)
     # Write your code here
+    new_arr = []
+    
+
 end
 
 

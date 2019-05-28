@@ -3,6 +3,8 @@
 
 def more_than_once(string)
     # Write your code here
+    # string.scan (/[""]./) #don't know how to select just "i" n "s"
+    string.scan (/a-z/)
 end
 
 print more_than_once('mississippi') == ["i", "s"]

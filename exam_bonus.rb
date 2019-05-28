@@ -10,6 +10,7 @@
 
 def is_prime?(num)
     # Write your code here
+    
 end
 
 def pick_primes(numbers)

@@ -3,6 +3,13 @@
 
 def element_count(arr)
     # Write your code here
+    counts = {}
+    arr.each do |char|
+    next if char == " "
+    counts[char] = 0 unless counts.include?(char)
+    counts[char] += 1
+  end
+  counts
 end
 
 puts element_count(["a", "b", "a", "a", "b"]) == {"a"=>3, "b"=>2}

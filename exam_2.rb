@@ -4,6 +4,13 @@
 
 def reverse(word)
     # Write your code here
+        i=0
+        new_array = []
+        while i < word.length
+            new_array.unshift(word[i])
+            i=i+1
+        end
+    return new_array.join
 end
 
 puts reverse("cat") == "tac"

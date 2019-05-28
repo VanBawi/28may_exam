@@ -3,6 +3,7 @@
 
 def pairs_to_zero(nums)
     # Write your code here
+    #not clear the question like how to pare to zero
 end
 
 puts pairs_to_zero([ 2, 5, 11, -5, -2, 7 ]) == 2
