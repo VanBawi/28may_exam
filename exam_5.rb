@@ -3,8 +3,15 @@
 
 def more_than_once(string)
     # Write your code here
-    # string.scan (/[""]./) #don't know how to select just "i" n "s"
-    string.scan (/a-z/)
+    array = []
+    new_string=string.split("")
+    freq=Hash.new(0)
+    new_string.each do |x|
+        freq[x] = freq[x] + 1
+    end
+    freq.each do |k,v| array << k if v >2
+    end
+    return array
 end
 
 print more_than_once('mississippi') == ["i", "s"]

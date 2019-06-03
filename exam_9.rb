@@ -5,8 +5,10 @@
 def only_name(arr)
     # Write your code here
     new_arr = []
-    
-
+    arr.map do |value| 
+    new_arr <<  value["name"]
+    end
+    p new_arr
 end
 
 

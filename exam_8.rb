@@ -3,7 +3,10 @@
 
 def pairs_to_zero(nums)
     # Write your code here
-    #not clear the question like how to pare to zero
+    if nums.abs + nums == 0 
+        count =  count + 1
+    end
+    p count
 end
 
 puts pairs_to_zero([ 2, 5, 11, -5, -2, 7 ]) == 2

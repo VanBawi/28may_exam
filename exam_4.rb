@@ -4,7 +4,7 @@
 
 def upcase_keys_selector(hash)
     # Write your code here
-    # no clue to start just upcase letter
+    p return hash.select {|key| key.upcase}
 end
 
 print upcase_keys_selector({"make"=> "Tesla", "MODEL"=> "S", "Year"=> 2018, "SEATS"=> 4}) == {"MODEL"=>"S", "SEATS"=>4}
