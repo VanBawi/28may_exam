@@ -3,10 +3,13 @@
 
 def pairs_to_zero(nums)
     # Write your code here
-    if nums.abs + nums == 0 
-        count =  count + 1
+    new_array = []
+    if array = nums + nums == 0
+        p new_array << array
     end
-    p count
+    p new_array
+     p new_array.flatten.length
+    p new_array.flatten.size
 end
 
 puts pairs_to_zero([ 2, 5, 11, -5, -2, 7 ]) == 2

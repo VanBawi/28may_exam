@@ -3,10 +3,13 @@
 
 def combinations(arr)
     # Write your code here
-    combination = []
-    arr.flat_map{|size| a.arr(size).to_a}
-    end
-    p arr
+    # new_array=[]
+    # arr.each_with_index |each,index|
+    # index = 0
+    # when index !=  index
+    #  new_array << index+=1
+    # end
+    # p new_array 
 end
 
 print combinations(["a", "b", "c"]) == [ [ "a", "b" ], [ "a", "c" ], [ "b", "c" ] ]

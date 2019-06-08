@@ -4,8 +4,16 @@
 
 def upcase_keys_selector(hash)
     # Write your code here
-    p return hash.select {|key| key.upcase}
+    newhash ={}
+    hash.each do |key,value|
+         #  if key.match(/^[A-Z]+$/)
+         if key == key.upcase
+            newhash[key] = value
+         end
+    end
+    p newhash
 end
+
 
 print upcase_keys_selector({"make"=> "Tesla", "MODEL"=> "S", "Year"=> 2018, "SEATS"=> 4}) == {"MODEL"=>"S", "SEATS"=>4}
 puts
